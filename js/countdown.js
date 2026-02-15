@@ -1,6 +1,5 @@
-// Mets ta date de lancement ici
-// Exemple: "2026-03-01T12:00:00" (heure locale) ou "2026-03-01T12:00:00Z" (UTC)
-const LAUNCH_DATE = "2026-02-15T10:00:00";
+// Date de lancement ici
+const LAUNCH_DATE = "2026-03-15T10:00:00";
 
 const $ = (id) => document.getElementById(id);
 const pad = (n) => String(n).padStart(2, "0");
